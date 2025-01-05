@@ -39,11 +39,22 @@
 
 /* Base */
 body {
+  margin: 0;
   color: var(--color-primary-dark);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
 }
 
 address {
@@ -54,8 +65,30 @@ ul {
   list-style-type: none;
 }
 
+.container {
+  width: 100%;
+  max-width: 1264px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Section */
+.section {
+  padding: 48px 0;
+}
+
+.section-title {
+  margin-bottom: 48px;
+  color: var(--color-primary-dark);
+  font-family: Play, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+
 /* Button */
 .button {
+  padding: 16px 32px;
+  margin-bottom: 14px;
   color: var(--color-primary-light);
   background-color: var(--color-primary);
   border: none;
@@ -83,13 +116,12 @@ ul {
 }
 
 /* Hero-section */
-.hero-section-text {
-  color: var(--color-secondary-gray-dark);
-  font-size: 12px;
-  line-height: 1.5;
+.hero-section {
+  padding: 115px 0 141px 0;
 }
 
 .hero-section-title {
+  margin-bottom: 40px;
   font-family: Play, sans-serif;
   color: var(--color-primary);
   font-size: 140px;
@@ -97,15 +129,16 @@ ul {
   line-height: 0.8;
 }
 
-.hero-section-title-text {
-  color: var(--color-primary-dark);
+.hero-section-text {
+  margin-bottom: 0;
+  color: var(--color-secondary-gray-dark);
+  font-size: 12px;
+  line-height: 1.5;
 }
 
-.section-title {
+.hero-section-title-text {
+  margin-bottom: 16px;
   color: var(--color-primary-dark);
-  font-family: Play, sans-serif;
-  font-size: 64px;
-  font-weight: 700;
 }
 
 /* Text */
@@ -124,9 +157,22 @@ ul {
 }
 
 /* Description-section */
+.description-section {
+  padding-bottom: 128px;
+}
+
+.description-section-title {
+  margin-bottom: 40px;
+}
+
 .description-section-text {
+  margin-bottom: 40px;
   font-size: 22px;
   line-height: 1.7;
+}
+
+.description-section-text:last-child {
+  margin-bottom: 0;
 }
 
 /* Advantages-section */
@@ -138,10 +184,22 @@ ul {
   line-height: 1.3;
 }
 
+.advantages-section-item {
+  padding: 24px 32px;
+}
+
 /* Procedures-section */
+.procedure-item {
+  /* Остановилась тут */
+}
 .procedure-card-title {
   color: var(--color-primary-light);
   font-size: 22px;
+}
+
+/* Contact-section */
+.contact-section {
+  padding-bottom: 96px;
 }
 
 /* Footer */
