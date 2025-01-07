@@ -11,26 +11,47 @@
   <body>
     <header>
       <div class="container">
-        <nav>
-          <a href="/">
-            <img
-              src="./images/logo.svg"
-              alt="Логотип косметологічної клініки"
-            />
-          </a>
+        <div class="header-container">
+          <nav class="header-nav">
+            <a href="/">
+              <img
+                src="./images/logo.svg"
+                alt="Логотип косметологічної клініки"
+              />
+            </a>
+            <ul class="header-menu">
+              <li>
+                <a class="header-link" href="#description-section">Про нас</a>
+              </li>
+              <li>
+                <a class="header-link" href="#advantages-section">Чому ми</a>
+              </li>
+              <li>
+                <a class="header-link" href="#procedures-section"
+                  >Наші процедури</a
+                >
+              </li>
+              <li>
+                <a class="header-link" href="#contact-section">Контакти</a>
+              </li>
+              <li>
+                <a href="#">
+                  <!-- calling icon -->
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <!-- facebook icon -->
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <!-- instagram icon -->
+                </a>
+              </li>
+            </ul>
+          </nav>
           <ul>
-            <li>
-              <a class="header-link" href="#description-section">Про нас</a>
-            </li>
-            <li>
-              <a class="header-link" href="#advantages-section">Чому ми</a>
-            </li>
-            <li>
-              <a class="header-link" href="#procedures-section"
-                >Наші процедури</a
-              >
-            </li>
-            <li><a class="header-link" href="#contact-section">Контакти</a></li>
             <li>
               <a href="#">
                 <!-- calling icon -->
@@ -47,8 +68,7 @@
               </a>
             </li>
           </ul>
-        </nav>
-        <!-- icons -->
+        </div>
       </div>
     </header>
     <main>
@@ -71,20 +91,19 @@
             <span class="text-brand text-capitalize" lang="en">beauty zone</span
             >!
           </h2>
-            <p class="description-section-text">
-              Наша косметологічна клініка пропонує вам професійні послуги з
-              догляду за шкірою обличчя та тіла.
-            </p>
-            <p class="description-section-text">
-              B
-              <span class="text-brand text-semi-bold text-capitalize" lang="en">
-                beauty zone
-              </span>
-              ми гарантуємо найвищі стандарти якості та приємний сервіс. Наші
-              косметологічні процедури та препарати допоможуть вам підтримувати
-              свою красу та молодість. З нами краса назавжди!
-            </p>
-          </div>
+          <p class="description-section-text">
+            Наша косметологічна клініка пропонує вам професійні послуги з
+            догляду за шкірою обличчя та тіла.
+          </p>
+          <p class="description-section-text">
+            B
+            <span class="text-brand text-semi-bold text-capitalize" lang="en">
+              beauty zone
+            </span>
+            ми гарантуємо найвищі стандарти якості та приємний сервіс. Наші
+            косметологічні процедури та препарати допоможуть вам підтримувати
+            свою красу та молодість. З нами краса назавжди!
+          </p>
           <img
             src="./images/photo-before-procedure.jpg"
             alt="Фото перед процедурою"
@@ -103,19 +122,19 @@
           </h2>
           <ul class="advantages-section-list">
             <li class="advantages-section-item">
-              <p>
+              <p class="advantages-section-text">
                 Всі наші косметологи мають вищу медичну освіту та стаж роботи
                 від 5 років
               </p>
             </li>
             <li class="advantages-section-item">
-              <p>
+              <p class="advantages-section-text">
                 Використовуємо тільки професійне обладнання та косметику,
                 перевірену часом
               </p>
             </li>
             <li class="advantages-section-item">
-              <p>
+              <p class="advantages-section-text">
                 Наша мета - підкреслити переваги та приховати недоліки, а не
                 переробити
               </p>
@@ -128,7 +147,7 @@
           <h2 class="section-title">
             Наші <span class="text-brand">процедури</span>
           </h2>
-          <ul>
+          <ul class="procedure-list">
             <li class="procedure-item">
               <article class="procedure-card">
                 <h3 class="procedure-card-title">Маски для обличчя</h3>
@@ -153,6 +172,7 @@
             Як нас <span class="text-brand">знайти</span>
           </h2>
           <iframe
+            class="contact-section-map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.4757931944964!2d30.77264847656058!3d50.50671337160291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97de411b701%3A0x48116b28f7f00d94!2z0YPQuy4g0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60L4sIDUsINCR0YDQvtCy0LDRgNGLLCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAwNzQwMA!5e0!3m2!1sru!2sua!4v1734895652828!5m2!1sru!2sua"
             width="605"
             height="481"
