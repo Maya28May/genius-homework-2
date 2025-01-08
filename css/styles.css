@@ -86,6 +86,9 @@ ul {
   font-size: 64px;
   font-weight: 700;
 }
+.section-title.centered {
+  text-align: center;
+}
 
 /* Button */
 .button {
@@ -183,6 +186,18 @@ ul {
   padding-bottom: 128px;
 }
 
+.description-section-container {
+  display: flex;
+  gap: 28px;
+  height: 695px;
+}
+
+.description-section-content {
+  max-width: 710px;
+  position: relative;
+  top: 40px;
+}
+
 .description-section-title {
   margin-bottom: 40px;
 }
@@ -197,6 +212,21 @@ ul {
   margin-bottom: 0;
 }
 
+.description-section-images {
+  flex-grow: 1;
+  position: relative;
+}
+
+.description-section-image {
+  border-radius: 327px;
+}
+
+.description-section-image-after {
+  position: absolute;
+  left: 165px;
+  top: 367px;
+}
+
 /* Advantages-section */
 .advantages-section {
   color: var(--color-black);
@@ -204,12 +234,17 @@ ul {
 
 .advantages-section-list {
   line-height: 1.3;
+  display: flex;
+  gap: 56px;
 }
 
 .advantages-section-item {
   padding: 24px 32px;
   border-radius: 32px;
-  background-color: var(--color-primary);
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .advantages-section-text {
@@ -220,23 +255,33 @@ ul {
 /* Procedures-section */
 .procedure-list {
   margin: 0 0 32px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.procedure-item {
+  flex-basis: calc((100% - 40px) / 3);
 }
 
 .procedure-card {
-  border-radius: 120px 4px;
-  background: linear-gradient(
+  height: 456px;
+  padding-bottom: 32px;
+  border-radius: 4px 120px;
+  background-image: linear-gradient(
     180deg,
     rgba(1, 28, 68, 0) 48.53%,
     rgba(1, 28, 68, 0.73) 84.61%,
-    #011c44 101.39%
+    var(--color-primary-dark) 101.39%
   );
   border: 4px solid violet; /*Убрать позже*/
-  height: 456px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .procedure-card-title {
   /*color: var(--color-primary-light); !!!!*/
-  margin-bottom: 32px;
   font-size: 22px;
   text-align: center;
 }
