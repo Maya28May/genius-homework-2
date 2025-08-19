@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
         <div class="header-container">
           <nav class="header-nav">
@@ -34,40 +34,27 @@
               <li>
                 <a class="header-link" href="#contact-section">Контакти</a>
               </li>
-              <li>
-                <a href="#">
-                  <!-- calling icon -->
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <!-- facebook icon -->
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <!-- instagram icon -->
-                </a>
-              </li>
             </ul>
           </nav>
-          <ul>
-            <li>
-              <a href="#">
-                <!-- calling icon -->
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <!-- facebook icon -->
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <!-- instagram icon -->
-              </a>
-            </li>
-          </ul>
+          <div class="header-socials">
+            <a href="#">
+              <svg class="header-socials-icon" width="32px" height="32px">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </a>
+
+            <a href="#">
+              <svg class="header-socials-icon" width="32px" height="32px">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+
+            <a href="#">
+              <svg class="header-socials-icon" width="32px" height="32px">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </header>
@@ -145,18 +132,33 @@
           </h2>
           <ul class="advantages-section-list">
             <li class="advantages-section-item">
+              <div class="advantages-section-icon">
+                <svg width="40px" height="44px">
+                  <use href="./images/icons.svg#icon-education"></use>
+                </svg>
+              </div>
               <p class="advantages-section-text">
                 Всі наші косметологи мають вищу медичну освіту та стаж роботи
                 від 5 років
               </p>
             </li>
             <li class="advantages-section-item">
+              <div class="advantages-section-icon">
+                <svg width="44px" height="34px">
+                  <use href="./images/icons.svg#icon-equipment"></use>
+                </svg>
+              </div>
               <p class="advantages-section-text">
                 Використовуємо тільки професійне обладнання та косметику,
                 перевірену часом
               </p>
             </li>
             <li class="advantages-section-item">
+              <div class="advantages-section-icon">
+                <svg width="43px" height="36px">
+                  <use href="./images/icons.svg#icon-crown"></use>
+                </svg>
+              </div>
               <p class="advantages-section-text">
                 Наша мета - підкреслити переваги та приховати недоліки, а не
                 переробити
@@ -170,6 +172,11 @@
           <h2 class="section-title centered">
             Наші <span class="text-brand">процедури</span>
           </h2>
+          <button class="carousel-button" type="button">
+            <svg width="16px" height="16px">
+              <use href="./images/icons.svg#icon-Arrow"></use>
+            </svg>
+          </button>
           <ul class="procedure-list">
             <li class="procedure-item">
               <article class="procedure-card">
@@ -187,6 +194,11 @@
               </article>
             </li>
           </ul>
+          <button class="carousel-button" type="button">
+            <svg width="16px" height="16px">
+              <use href="./images/icons.svg#icon-Arrow"></use>
+            </svg>
+          </button>
         </div>
       </section>
       <section class="contact-section section" id="contact-section">
@@ -260,15 +272,21 @@
               </ul>
               <div class="footer-socials">
                 <a href="#">
-                  <!-- calling icon -->
+                  <svg class="footer-socials-icon" width="42px" height="42px">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                  </svg>
                 </a>
 
                 <a href="#">
-                  <!-- facebook icon -->
+                  <svg class="footer-socials-icon" width="42px" height="42px">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
                 </a>
 
                 <a href="#">
-                  <!-- instagram icon -->
+                  <svg class="footer-socials-icon" width="42px" height="42px">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
                 </a>
               </div>
             </div>
