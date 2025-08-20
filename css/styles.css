@@ -53,7 +53,7 @@ body {
   color: var(--color-primary-dark);
   background-image: url('../images/background.png');
   background-repeat: no-repeat;
-  background-position: center 680px;
+  background-position: center 720px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -173,8 +173,9 @@ ul {
   padding: 115px 0 141px 0;
   background-image: url('../images/hero-section-background.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
+  margin-bottom: 43px;
 }
 
 .hero-section-title {
@@ -258,6 +259,15 @@ ul {
   left: 165px;
   top: 367px;
 }
+
+/*.description-section-icon {
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  right: 313px;
+  top: 340px;
+}*/
 
 /* Advantages-section */
 .advantages-section {
