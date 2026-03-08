@@ -51,9 +51,9 @@ html {
 body {
   margin: 0;
   color: var(--color-primary-dark);
-  background-image: url('../images/background.png');
+  /*background-image: url('../images/background.png');
   background-repeat: no-repeat;
-  background-position: top 700px center;
+  background-position: top 700px center;*/
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -159,7 +159,7 @@ img {
 
 .header-link:hover {
   color: var(--color-primary);
-  /* font-weight: 700; Не додаємо бо некрасиво  Зупинились тут*/
+  /* font-weight: 700; Не додаємо бо некрасиво */
 }
 
 .header-socials {
