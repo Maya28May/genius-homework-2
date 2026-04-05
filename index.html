@@ -255,6 +255,7 @@
                       id="user-full-name"
                       name="user-full-name"
                       placeholder="Ваше ім'я та прізвище"
+                      required
                     />
                   </div>
 
@@ -268,6 +269,8 @@
                       id="user-phone"
                       name="user-phone"
                       placeholder="Ваш номер телефону"
+                      pattern="^\+[0-9]{12}"
+                      required
                     />
                   </div>
 
@@ -390,7 +393,7 @@
           Запишіться <span class="text-brand">безкоштовно</span> та отримайте
           подарунок
         </p>
-        <form name="modal-form" autocomplete="on" novalidate>
+        <form name="modal-form" autocomplete="off">
           <div class="form-field">
             <label class="form-label visually-hidden" for="user-full-name">
               Ваше ім'я та прізвище
@@ -401,6 +404,7 @@
               id="user-full-name"
               name="user-full-name"
               placeholder="Ваше ім'я та прізвище"
+              required
             />
           </div>
 
@@ -414,6 +418,8 @@
               id="user-phone"
               name="user-phone"
               placeholder="Ваш номер телефону"
+              pattern="^\+[0-9]{12}"
+              required
             />
           </div>
 
