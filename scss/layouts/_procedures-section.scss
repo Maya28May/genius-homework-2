@@ -1,0 +1,16 @@
+.procedures-container {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.procedure-list {
+  margin: 0 0 32px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 16px;
+  overflow: hidden;
+}
+
+.procedure-item {
+  flex: 0 0 auto;
+}

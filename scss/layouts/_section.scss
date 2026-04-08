@@ -1,0 +1,14 @@
+.section {
+  padding: 48px 0;
+}
+
+.section-title {
+  margin-bottom: 48px;
+  color: var(--color-primary-dark);
+  font-family: Play, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+.section-title.centered {
+  text-align: center;
+}

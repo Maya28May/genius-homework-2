@@ -1,0 +1,100 @@
+.footer {
+  position: relative;
+  padding: 56px 0;
+  background-color: var(--color-primary-dark);
+  background-image: url('../images/footer-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 16px;
+}
+
+.footer::after {
+  position: absolute;
+  width: 248px;
+  height: 152px;
+  bottom: 0;
+  right: 0;
+  background-image: url('../images/decor-cosmetics.png');
+  background-repeat: no-repeat;
+  content: '';
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 50%;
+  gap: 20px;
+  text-align: left;
+}
+
+.footer-logo {
+  flex-grow: 1;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+}
+
+.footer-address {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 50%;
+  gap: 20px;
+  text-align: left;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.footer-address-list {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+}
+
+.footer-socials {
+  margin-top: 16px;
+  display: flex;
+  gap: 24px;
+  justify-content: flex-start;
+}
+
+.footer-socials-icon {
+  fill: var(--color-primary-light);
+}
+
+/*.footer-socials-icon:hover {
+  fill: var(--color-primary-light);
+}*/
+
+.footer-link {
+  color: var(--color-primary-light);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.footer-address-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-grow: 1;
+}
+
+.footer-address-copyright {
+  color: var(--color-secondary-gray-light);
+  font-size: 13px;
+}
